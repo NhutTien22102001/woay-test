@@ -1,0 +1,354 @@
+@font-face {
+  font-family: poppins;
+  src: url("../font/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url("../font/Poppins/Poppins-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1146px;
+  margin: auto;
+}
+
+header {
+  position: relative;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 0;
+    ul {
+      display: flex;
+      gap: 60px;
+      li {
+        a {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #231749;
+        }
+      }
+    }
+  }
+  .header-banner {
+    background-image: url("../assets/img/mask.png");
+    background-size: cover;
+    background-color: #f9f7ff;
+    min-height: 774px;
+    position: relative;
+    .box-content {
+      display: flex;
+      flex-direction: column;
+      max-width: 513px;
+      position: relative;
+      top: 179px;
+      .title {
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 120%;
+        letter-spacing: 0.5px;
+        font-family: poppins-bold;
+        color: #2d1d61;
+        margin-bottom: 40px;
+      }
+      span {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140.2%;
+        letter-spacing: 0.3px;
+
+        color: #363049;
+
+        opacity: 0.8;
+        margin-bottom: 60px;
+      }
+      button {
+        width: 242px;
+        height: 70px;
+        color: #ffff;
+        font-weight: 600;
+        box-sizing: border-box;
+        font-size: 20px;
+        line-height: 170.19%;
+        background: #7951f9;
+        border-radius: 10px;
+        border: 0;
+      }
+    }
+  }
+}
+main {
+  .first-section {
+    background-image: url("../assets/img/Mask-Group.png");
+    min-height: 692px;
+    position: relative;
+    background-position: left;
+    background-repeat: no-repeat;
+    .list-items {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      top: 160px;
+      .item {
+        max-width: 358px;
+        padding: 66px 26px 59px 30px;
+        background: #ffffff;
+        border: 1px solid #f3f4fe;
+        border-radius: 10px;
+        box-sizing: border-box;
+        &:first-child {
+          box-shadow: 0px 50px 115px rgba(165, 153, 209, 0.3);
+        }
+        .title {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 130%;
+          color: #352b53;
+          margin-top: 51px;
+          margin-bottom: 30px;
+        }
+        span {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 140.2%;
+          letter-spacing: 0.3px;
+
+          color: #363049;
+        }
+      }
+    }
+  }
+  .second-section {
+    min-height: 530px;
+    background-color: #f9f7ff;
+    position: relative;
+    .chart {
+      width: 628.06px;
+      height: 414.01px;
+      position: absolute;
+      left: 3.2%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .box-left {
+      max-width: 512px;
+      padding-top: 120px;
+      margin-left: auto;
+      .title {
+        font-weight: 700;
+        font-family: poppins-bold;
+        font-size: 36px;
+        line-height: 130%;
+        color: #2d1d61;
+        margin-bottom: 20px;
+      }
+      span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150.7%;
+        letter-spacing: 0.1px;
+        color: #363049;
+        opacity: 0.8;
+      }
+    }
+  }
+  .third-section {
+    background-image: url("../assets/img/Mask-Group2.png");
+    min-height: 552px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right;
+    .box-right {
+      max-width: 576px;
+      padding-top: 172px;
+      .title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+        color: #2d1d61;
+        font-family: poppins-bold;
+        margin-bottom: 20px;
+      }
+      span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150.7%;
+        letter-spacing: 0.1px;
+        color: #363049;
+        opacity: 0.8;
+      }
+    }
+    .chart {
+      position: absolute;
+      width: 568.83px;
+      height: 376.5px;
+      right: 7.5%;
+      top: 79px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .forth-section {
+    position: relative;
+    min-height: 540px;
+    background-image: url("../assets/img/Mask-Group3.png");
+    background-repeat: no-repeat;
+    .chart {
+      position: absolute;
+      width: 550px;
+      height: 401px;
+      left: 100px;
+      top: 64px;
+      img {
+        width: 100%;
+      }
+    }
+    .box-left {
+      max-width: 613px;
+      padding-top: 169px;
+      margin-left: auto;
+      position: relative;
+      right: 0;
+      .title {
+        font-weight: 700;
+        font-family: poppins-bold;
+        font-size: 36px;
+        line-height: 130%;
+        color: #2d1d61;
+        margin-bottom: 20px;
+      }
+      span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150.7%;
+        letter-spacing: 0.1px;
+        color: #363049;
+        opacity: 0.8;
+      }
+    }
+  }
+  .faq-section {
+    background-image: url("../assets/img/Rectangle.png");
+    min-height: 770px;
+    background-repeat: no-repeat;
+    position: relative;
+    .title {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 130%;
+      color: #2d1d61;
+      text-align: center;
+      font-family: poppins-bold;
+      padding-top: 85px;
+    }
+    .list-items {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 120px;
+      .items-right {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        max-width: 558px;
+        box-sizing: border-box;
+
+        .item {
+          display: flex;
+          gap: 30px;
+          padding: 35px 28px 35px 32px;
+          background: #ffffff;
+          border: 1px solid #f3f4fe;
+          box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
+          border-radius: 10px;
+          align-items: center;
+          box-sizing: border-box;
+          height: 100px;
+          &.minus {
+            align-items: flex-start;
+            padding: 37px 28px 42px 32px;
+            height: 230px;
+            .icon {
+              margin-top: -5px;
+            }
+          }
+          .title {
+            padding-top: 0 !important;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 130%;
+            color: #1b1139;
+            text-align: unset;
+            opacity: 0.88;
+            margin-bottom: 20px;
+            &.plus {
+              margin-bottom: 0;
+            }
+          }
+          span {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150.7%;
+            letter-spacing: 0.1px;
+
+            color: #363049;
+
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  .cta-section {
+    background-image: url("../assets/img/Background.png");
+    background-size: cover;
+    min-height: 460px;
+    .box {
+      max-width: 612px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 70px;
+      padding-top: 117px;
+      .title {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 138.7%;
+        color: #2d1d61;
+        letter-spacing: 0.3px;
+        min-height: 83px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 170.19%;
+        letter-spacing: 0.3px;
+        color: #ffffff;
+        border: 0;
+        background: #7951f9;
+        box-shadow: 0px 40px 70px rgba(65, 24, 162, 0.25);
+        width: 252px;
+        height: 74px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
